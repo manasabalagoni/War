@@ -39,20 +39,6 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
-<groupId>org.jboss.as.plugins</groupId>
-<artifactId>jboss-as-maven-plugin</artifactId>
-<version>7.9.Final</version>
-<configuration>
-    <execute-commands>
-        <commands>
-            <command>deploy target/java-tomcat-maven-example.war/</command>
-    </execute-commands>
-     <hostname>192.168.85.90</hostname>
-     <username>jboss</username>
-     <password>admin123</password>
-</configuration>
-</plugin>
     </plugins>
   </build>
 </project>
